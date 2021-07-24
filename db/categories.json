@@ -1,0 +1,29 @@
+[{
+  "_id": {
+    "$oid": "6050e6b9ca02801458018c2f"
+  },
+  "title": "Áo ngắn tay",
+  "slug": "áo-ngắn-tay",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ef0a7528352a2d14e1908c"
+  },
+  "title": "Quần dài",
+  "slug": "quần-dài",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ef119028352a2d14e1908f"
+  },
+  "title": "Áo sơ mi",
+  "slug": "áo-sơ-mi",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ef132e28352a2d14e19095"
+  },
+  "title": "Váy mùa hè",
+  "slug": "váy-mùa-hè",
+  "__v": 0
+}]

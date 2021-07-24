@@ -1,0 +1,135 @@
+<% include _layouts/header %>
+
+
+    <div class="row shadow">
+
+        <div class="col-xs-12 col-md-5 p-2">
+            <a href="/products/<%= p.category %>/<%= p.slug %>" class="pa">
+                <img class="spi" src="/product_images/<%= p.id %>/<%= p.image %>" alt="">
+                <br>
+            </a>
+            <ul class="gallery p-0">
+                <% galleryImages.forEach(function(image) { %>
+                    <% if(image != 'thumbs') { %>
+                        <li class="mx-2">
+                            <a data-fancybox="gallery" href="/product_images/<%= p.id %>/gallery/<%= image %>">
+                                <img src="/product_images/<%= p.id %>/gallery/thumbs/<%= image %>" alt="">
+                            </a>
+                        </li>
+                        <% } %>
+                            <% }); %>
+            </ul>
+        </div>
+
+        <div class="col-xs-12 col-md-7  rounded p-4">
+            <div class="rating">
+                <span class="text-warning"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span>
+                <span class="text-secondary">4.9/5</span>
+            </div>
+            <h5 class="page-header mt-2">
+                <%= p.title %>
+            </h5>
+
+            <h3>$
+                <%= parseFloat(p.price).toFixed(2) %>
+            </h3>
+            <div class="control-buy d-flex">
+
+                <% if (loggedIn) { %>
+                    <p><a class="btn  mt-3 addCart" href="/cart/add/<%= p.slug %>">Add to cart</a></p>
+                    <% } else { %>
+                        <p class="text-danger">Bạn cần đăng nhập trước khi mua hàng.</p>
+                        <% } %>
+
+            </div>
+            <hr>
+            <div class="color">
+                <p class="fw-bold">Color Options :</p>
+                <div class="option">
+                    <span class="option-color-1"></span>
+                    <span class="option-color-2"></span>
+                    <span class="option-color-3"></span>
+                </div>
+            </div>
+            <h5 class="mt-3">Description</h5>
+            <p>
+                <%- p.desc %>
+            </p>
+            <p class="fw-bold">Place shopper :</p>
+            <p>Hồ Chí Minh City</p>
+        </div>
+    </div>
+    <div class="row shadow-lg mt-3">
+        <div class="col-md-12">
+
+            <div class="review  p-2">
+                <h3>Reviews</h3>
+                <div class="rating">
+                    <span class="text-warning"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span>
+                    <span class="text-secondary">4.9/5</span>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-7">
+                        <div class="d-flex justify-content-between flex-wrap">
+                            <span class="box-review">All(122)</span>
+                            <span class="box-review"><i class="far fa-image"></i>(20)</span>
+                            <span class="box-review"><i class="far fa-comment-alt"></i>(12)</span>
+                            <span class="box-review active-review">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                                <span>(120)</span>
+                            </span>
+                            <span class="box-review">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                <span>(10)</span>
+                            </span>
+                            <span class="box-review">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                <span>(3)</span>
+                            </span>
+                        </div>
+                        <ul class="list-comment">
+
+                            <li class="border-top p-2">
+                                <div class="item-content d-flex ">
+                                    <img class="img-fluid rounded-circle" style="max-width: 30px; margin-right:20px" src="https://images.unsplash.com/photo-1626254180993-10f70536cfc4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="">
+                                    <div class="text">
+                                        <span class="text-warning"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span>
+                                        <p>Good sẽ ủng hộ nữa</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="border-top p-2">
+                                <div class="item-content d-flex ">
+                                    <img class="img-fluid rounded-circle" style="max-width: 30px; margin-right:20px" src="https://images.unsplash.com/photo-1626383151337-fe5c38ebe865?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="">
+                                    <div class="text">
+                                        <span class="text-warning"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span>
+                                        <p>sản phẩm đảm bảo chất lượng</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="border-top p-2">
+                                <div class="item-content d-flex ">
+                                    <img class="img-fluid rounded-circle" style="max-width: 30px; margin-right:20px" src="https://images.unsplash.com/photo-1626421334974-90702b17f142?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=356&q=80" alt="">
+                                    <div class="text">
+                                        <span class="text-warning"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span>
+                                        <p>sản rất đáng mua</p>
+                                    </div>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <div class="col-md-3">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <% include _layouts/footer %>

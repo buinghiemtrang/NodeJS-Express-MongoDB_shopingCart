@@ -1,0 +1,29 @@
+<% include _layouts/header %>
+    <div class="row">
+        <div class="col-md-5">
+            <img class="img-responsive d-block" style="max-width:400px" src="https://png.pngtree.com/png-clipart/20200701/original/pngtree-online-shopping-concept-with-man-and-woman-characters-png-image_5356758.jpg" alt="">
+        </div>
+        <div class="col-md-7">
+            <h1>
+                <%= title %>
+            </h1>
+
+            <form method="post" action="/users/login">
+
+                <div class="form-group">
+                    <label>Username</label>
+                    <input type="text" name="username" class="form-control input-register" placeholder="Username">
+                </div>
+
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" name="password" class="form-control input-register" placeholder="Password">
+                </div>
+
+                <button type="submit" class="w-100 btn-register">Log in</button>
+            </form>
+        </div>
+    </div>
+
+
+    <% include _layouts/footer %>

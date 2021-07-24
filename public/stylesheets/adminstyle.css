@@ -1,0 +1,86 @@
+.sorting tr:not(.home) {
+    cursor: pointer;
+}
+
+.ui-state-hightlight {
+    border: 1px dashed #ccc;
+}
+
+#imgPreview {
+    margin: 20px;
+}
+
+#noimage {
+    width: 100px;
+    height: 100px;
+}
+
+ul.gallery {
+    padding: 0;
+}
+
+ul.gallery li:first-child {
+    margin-left: 0;
+}
+
+ul.gallery li {
+    margin: 20px;
+    display: inline-block;
+    list-style: none;
+}
+
+table.alignmiddle td {
+    vertical-align: middle !important;
+}
+
+.content {
+    /* width: 100%; */
+    height: 750px;
+    overflow: auto;
+}
+
+.logo {
+    color: #777777;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo:hover {
+    color: none;
+}
+
+.bg-menu {
+    background: #f3eded;
+    border-bottom: 1px solid #acacac;
+}
+
+.nav-link {
+    font-size: 18px;
+}
+
+.slider {
+    background: #eeeeee;
+    min-height: 800px;
+    /* padding: 10px; */
+}
+
+.nav-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.edit {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    background: #ff8a3b;
+    border-radius: 8px;
+}
+
+.delete {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    background: #ff3b3b;
+    border-radius: 8px;
+}

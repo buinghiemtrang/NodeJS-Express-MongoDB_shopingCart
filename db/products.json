@@ -1,0 +1,111 @@
+[{
+  "_id": {
+    "$oid": "60ef102f28352a2d14e1908e"
+  },
+  "title": "Quần tây đen công sở ",
+  "slug": "quần-tây-đen-công-sở-",
+  "desc": "<p>Quần t&acirc;y đen c&ocirc;ng sở nữ d&agrave;i 2 khuy bấm mặc đi l&agrave;m học cạp lưng cao - D&aacute;ng quần baggy vải c&ocirc;ng sở d&agrave;y mềm phối &aacute;o sơ mi</p>\r\n",
+  "price": 200,
+  "category": "quần-dài",
+  "image": "quan-dai.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ef11d928352a2d14e19090"
+  },
+  "title": "bộ áo thun mặt cười form rộng unisex + quần xuông trắng",
+  "slug": "bộ-áo-thun-mặt-cười-form-rộng-unisex-+-quần-xuông-trắng",
+  "desc": "<p>bộ &aacute;o thun mặt cười form rộng unisex + quần xu&ocirc;ng trắng</p>\r\n\r\n<p>Tất cả các đơn hàng trước khi gửi đi đều được kiểm tra kĩ lưỡng, đóng gói cẩn thận, tránh sai sót.</p>\r\n",
+  "price": 230,
+  "category": "áo-ngắn-tay",
+  "image": "ao-ngan-tay-1.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ef124728352a2d14e19091"
+  },
+  "title": "quần sooc vàng cá tính",
+  "slug": "quần-sooc-vàng-cá-tính",
+  "desc": "<p>Kh&ocirc;ng n&ecirc;n ch&agrave; x&aacute;t mạnh bằng b&agrave;n chải, tr&aacute;nh phơi dưới &aacute;nh nắng gắt trực tiếp.</p>\r\n",
+  "price": 2004,
+  "category": "quần-dài",
+  "image": "quan-nam.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ef128328352a2d14e19092"
+  },
+  "title": "Áo thun unisex from rộng cổ tròn tay",
+  "slug": "áo-thun-unisex-from-rộng-cổ-tròn-tay",
+  "desc": "<p>[M&atilde; SKAMCLU7 giảm 10% tối đa 50K đơn 0Đ] &Aacute;o thun unisex from rộng cổ tr&ograve;n tay lỡ freesize 38-70kg - B&ograve; sữa</p>\r\n",
+  "price": 1200,
+  "category": "áo-ngắn-tay",
+  "image": "ao-ngan-tay.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ef12d428352a2d14e19093"
+  },
+  "title": "Bộ thun nữ thời trang set quần áo phông hè ",
+  "slug": "bộ-thun-nữ-thời-trang-set-quần-áo-phông-hè-",
+  "desc": "<p>Bộ thun nữ thời trang set quần &aacute;o ph&ocirc;ng h&egrave; chất Cotton oversize form rộng (&aacute;o thun nữ + quần short)</p>\r\n",
+  "price": 3200,
+  "category": "áo-ngắn-tay",
+  "image": "ao-ngan-tay-2.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ef130b28352a2d14e19094"
+  },
+  "title": "Dây Nữ Thổ Cẩm Họa Tiết Hai Màu So Hot",
+  "slug": "dây-nữ-thổ-cẩm-họa-tiết-hai-màu-so-hot",
+  "desc": "<p>D&acirc;y Nữ Thổ Cẩm Họa Tiết Hai M&agrave;u So Hot&nbsp;M&agrave;u tr&ecirc;n ảnh chụp c&oacute; thể ch&ecirc;nh 98/100 so với &aacute;o ngo&agrave;i do chụp ảnh thiếu s&aacute;ng</p>\r\n",
+  "price": 1300,
+  "category": "áo-ngắn-tay",
+  "image": "product-8.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ef137428352a2d14e19096"
+  },
+  "title": "Áo Sơ Mi Thụng Dấu Quần",
+  "slug": "áo-sơ-mi-thụng-dấu-quần",
+  "desc": "<p>&Aacute;o Sơ Mi Thụng Dấu Quần</p>\r\n",
+  "price": 2000,
+  "category": "áo-sơ-mi",
+  "image": "vay.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ef13b528352a2d14e19097"
+  },
+  "title": "Áo Trễ Vai Cánh Tiên Tay Bèo ",
+  "slug": "áo-trễ-vai-cánh-tiên-tay-bèo-",
+  "desc": "<p>&Aacute;o Trễ Vai C&aacute;nh Ti&ecirc;n Tay B&egrave;o Tầng Mặc 2 Kiểu &Aacute;o Kiểu Nữ Phối Quần Sooc Ch&acirc;n V&aacute;y Trẻ Trung Năng Động C&aacute; T&iacute;nh</p>\r\n",
+  "price": 1467,
+  "category": "váy-mùa-hè",
+  "image": "product-6.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ef148128352a2d14e19098"
+  },
+  "title": "Set Dập Ly 2 Dây Xòe Tầng Đi Biển Cực Hot",
+  "slug": "set-dập-ly-2-dây-xòe-tầng-đi-biển-cực-hot",
+  "desc": "<p>Set Dập Ly 2 D&acirc;y X&ograve;e Tầng Đi Biển Cực Hot</p>\r\n",
+  "price": 210,
+  "category": "váy-mùa-hè",
+  "image": "product-11.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ef149c28352a2d14e19099"
+  },
+  "title": "Set Hoa Nhí Bèo Lệch Mix Quần Sooc",
+  "slug": "set-hoa-nhí-bèo-lệch-mix-quần-sooc",
+  "desc": "<p>Set Hoa Nh&iacute; B&egrave;o Lệch Mix Quần Sooc</p>\r\n",
+  "price": 3100,
+  "category": "áo-ngắn-tay",
+  "image": "ao-so-mi.jpg",
+  "__v": 0
+}]
